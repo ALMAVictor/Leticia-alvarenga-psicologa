@@ -1,0 +1,197 @@
+═══════════════════════════════════════════════════════════════════════════════
+PROMPTS PARA GERAÇÃO DE IMAGENS - SERVIÇOS PSICOLÓGICOS
+═══════════════════════════════════════════════════════════════════════════════
+
+ESTILO GERAL PARA TODAS AS IMAGENS:
+- Tom acolhedor, profissional e terapêutico
+- Cores suaves: tons de roxo/lavanda (#6B4E71, #C8A2C8), bege, branco
+- Iluminação suave e natural
+- Ambiente calmo e seguro
+- Sem pessoas reais (usar símbolos, ilustrações ou elementos abstratos)
+- Formato: 400x300px (proporção 4:3)
+- Estilo: Ilustração moderna, minimalista, profissional
+
+═══════════════════════════════════════════════════════════════════════════════
+
+1. PSICOTERAPIA INDIVIDUAL
+═══════════════════════════════════════════════════════════════════════════════
+
+PROMPT PRINCIPAL:
+"Professional therapeutic illustration for individual psychotherapy service. 
+A minimalist, calming scene showing a comfortable armchair in soft lavender 
+and beige tones, with a gentle plant nearby. Soft natural lighting creating 
+a safe, welcoming atmosphere. Abstract representation of personal growth 
+with subtle geometric shapes in purple tones. Clean, modern design with 
+plenty of white space. Colors: #6B4E71 (deep purple), #C8A2C8 (lavender), 
+#F5E6E8 (soft pink), beige, white. Style: modern illustration, professional, 
+therapeutic, calming, minimalist. No people, just symbolic elements. 
+Aspect ratio 4:3, 400x300px."
+
+PROMPT ALTERNATIVO:
+"Illustration of individual therapy session concept. A serene, minimalist 
+room with a comfortable chair, soft cushions in purple and lavender tones, 
+a small table with a plant, and warm natural light streaming through a 
+window. Abstract elements representing self-reflection and personal growth: 
+gentle curves, soft circles, and flowing lines in purple gradient. 
+Professional, modern illustration style. Color palette: soft purples 
+(#6B4E71, #C8A2C8), warm beige, white. Calming, therapeutic atmosphere. 
+No human figures. Clean, spacious composition. 4:3 aspect ratio."
+
+═══════════════════════════════════════════════════════════════════════════════
+
+2. TERAPIA DE CASAL
+═══════════════════════════════════════════════════════════════════════════════
+
+PROMPT PRINCIPAL:
+"Professional illustration for couples therapy service. Two comfortable 
+chairs facing each other in a warm, inviting space. Soft lavender and 
+purple tones creating harmony. Abstract elements representing connection: 
+intertwined circles, flowing lines connecting two points, heart-shaped 
+silhouettes in soft purple. Warm, natural lighting. Modern minimalist 
+illustration style. Colors: #6B4E71 (deep purple), #C8A2C8 (lavender), 
+beige, white. Professional, therapeutic, romantic but subtle. No people, 
+symbolic representation of partnership. Clean design with soft shadows. 
+Aspect ratio 4:3, 400x300px."
+
+PROMPT ALTERNATIVO:
+"Couples therapy concept illustration. A peaceful therapy room with two 
+matching armchairs positioned to face each other, soft purple cushions, 
+a coffee table with a small plant between them. Abstract decorative 
+elements: two circles gently overlapping, connected by flowing lines in 
+purple gradient. Warm, soft lighting creating intimacy and safety. 
+Minimalist, modern illustration. Color scheme: lavender (#C8A2C8), 
+deep purple (#6B4E71), warm beige, white. Professional, calming, 
+relationship-focused. No human figures. Spacious, balanced composition. 
+4:3 aspect ratio."
+
+═══════════════════════════════════════════════════════════════════════════════
+
+3. TERAPIA FAMILIAR
+═══════════════════════════════════════════════════════════════════════════════
+
+PROMPT PRINCIPAL:
+"Family therapy service illustration. A welcoming therapy room with multiple 
+comfortable chairs arranged in a circle, soft purple and lavender tones. 
+Abstract elements representing family unity: multiple interconnected circles 
+of different sizes, flowing lines connecting them, tree-like structure with 
+branches. Warm, inclusive atmosphere. Modern minimalist illustration style. 
+Colors: #6B4E71 (deep purple), #C8A2C8 (lavender), #F5E6E8 (soft pink), 
+beige, white. Professional, therapeutic, family-oriented. No people, 
+symbolic representation of family bonds. Clean, harmonious design. 
+Aspect ratio 4:3, 400x300px."
+
+PROMPT ALTERNATIVO:
+"Family therapy concept illustration. A spacious, warm therapy room with 
+several comfortable chairs in a semi-circle arrangement, soft cushions in 
+purple tones. Abstract decorative elements: a family tree silhouette in 
+purple gradient, multiple circles of varying sizes connected by gentle 
+lines, representing different family members and their connections. 
+Natural, soft lighting. Modern illustration style. Color palette: lavender 
+(#C8A2C8), deep purple (#6B4E71), warm beige, white. Inclusive, welcoming, 
+therapeutic atmosphere. No human figures. Balanced, harmonious composition. 
+4:3 aspect ratio."
+
+═══════════════════════════════════════════════════════════════════════════════
+
+4. ORIENTAÇÃO PROFISSIONAL
+═══════════════════════════════════════════════════════════════════════════════
+
+PROMPT PRINCIPAL:
+"Career guidance and professional orientation service illustration. A clean, 
+modern workspace with a desk, a plant, and abstract elements representing 
+career growth: upward arrows in purple gradient, ladder or staircase 
+silhouette, lightbulb icon, compass rose. Soft lavender and purple tones. 
+Professional yet approachable atmosphere. Modern minimalist illustration 
+style. Colors: #6B4E71 (deep purple), #C8A2C8 (lavender), beige, white. 
+Inspiring, goal-oriented, professional. No people, symbolic career elements. 
+Clean, organized design. Aspect ratio 4:3, 400x300px."
+
+PROMPT ALTERNATIVO:
+"Professional orientation service illustration. A minimalist desk setup with 
+a notebook, pen, and abstract career symbols: a compass pointing upward, 
+geometric shapes forming a path or road, lightbulb representing ideas, 
+and subtle graph lines showing growth. Soft purple and lavender color scheme. 
+Warm, inspiring lighting. Modern illustration style. Color palette: deep 
+purple (#6B4E71), lavender (#C8A2C8), warm beige, white. Professional, 
+motivational, career-focused. No human figures. Clean, aspirational 
+composition. 4:3 aspect ratio."
+
+═══════════════════════════════════════════════════════════════════════════════
+
+5. ANSIEDADE E ESTRESSE
+═══════════════════════════════════════════════════════════════════════════════
+
+PROMPT PRINCIPAL:
+"Anxiety and stress treatment service illustration. A calming, peaceful scene 
+with abstract elements representing relief: gentle waves in soft purple, 
+breathing circle or spiral, cloud-like shapes, zen garden patterns. Soft, 
+soothing lavender and purple tones. Tranquil, meditative atmosphere. Modern 
+minimalist illustration style. Colors: #6B4E71 (deep purple), #C8A2C8 
+(lavender), #F5E6E8 (soft pink), beige, white. Calming, therapeutic, 
+peaceful. No people, symbolic elements of relaxation and peace. Clean, 
+serene design. Aspect ratio 4:3, 400x300px."
+
+PROMPT ALTERNATIVO:
+"Anxiety and stress therapy illustration. A serene, minimalist composition 
+with calming elements: flowing water-like curves in purple gradient, 
+breathing mandala or circular pattern, soft cloud formations, gentle 
+geometric shapes. Warm, soft lighting creating a sense of safety and calm. 
+Modern therapeutic illustration style. Color scheme: lavender (#C8A2C8), 
+deep purple (#6B4E71), soft pink (#F5E6E8), beige, white. Soothing, 
+peaceful, stress-relief focused. No human figures. Harmonious, tranquil 
+composition. 4:3 aspect ratio."
+
+═══════════════════════════════════════════════════════════════════════════════
+
+6. DEPRESSÃO
+═══════════════════════════════════════════════════════════════════════════════
+
+PROMPT PRINCIPAL:
+"Depression treatment service illustration. A hopeful, uplifting scene with 
+abstract elements representing recovery and hope: a sunrise or light breaking 
+through clouds in soft purple and lavender tones, upward-growing plant 
+silhouette, gentle rays of light, butterfly or bird silhouette. Warm, 
+encouraging atmosphere. Modern minimalist illustration style. Colors: 
+#6B4E71 (deep purple), #C8A2C8 (lavender), #F5E6E8 (soft pink), warm beige, 
+white with hints of soft yellow/gold for hope. Supportive, hopeful, 
+therapeutic. No people, symbolic elements of healing and hope. Clean, 
+uplifting design. Aspect ratio 4:3, 400x300px."
+
+PROMPT ALTERNATIVO:
+"Depression therapy service illustration. A gentle, hopeful composition 
+showing light emerging from darkness: soft rays of light in purple and 
+lavender gradient, a small plant growing upward, abstract sun or light 
+source, gentle curves representing healing journey. Warm, supportive 
+lighting. Modern therapeutic illustration style. Color palette: deep purple 
+(#6B4E71), lavender (#C8A2C8), soft pink (#F5E6E8), warm beige, white, 
+subtle golden accents. Encouraging, supportive, recovery-focused. No human 
+figures. Hopeful, balanced composition. 4:3 aspect ratio."
+
+═══════════════════════════════════════════════════════════════════════════════
+
+INSTRUÇÕES ADICIONAIS PARA GERAÇÃO:
+═══════════════════════════════════════════════════════════════════════════════
+
+- Todas as imagens devem ter o mesmo estilo visual para manter consistência
+- Evitar elementos muito escuros ou sombrios
+- Manter tom positivo e acolhedor mesmo para temas sensíveis
+- Usar elementos abstratos e simbólicos, não representações literais
+- Garantir que as imagens funcionem bem em formato retangular (4:3)
+- Manter paleta de cores consistente com o site (#6B4E71, #C8A2C8, #F5E6E8)
+- Focar em sensação de segurança, acolhimento e profissionalismo
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PALETA DE CORES DO SITE:
+═══════════════════════════════════════════════════════════════════════════════
+
+- Primary Purple: #6B4E71 (Roxo escuro)
+- Secondary Lavender: #C8A2C8 (Lavanda)
+- Accent Pink: #F5E6E8 (Rosa suave)
+- Text Dark: #2C2C2C (Texto escuro)
+- Text Light: #666666 (Texto claro)
+- White: #FFFFFF (Branco)
+- Beige/Warm tones: Use tons quentes e neutros
+
+═══════════════════════════════════════════════════════════════════════════════
+
