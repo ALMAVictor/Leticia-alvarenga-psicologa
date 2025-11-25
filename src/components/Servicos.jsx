@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import './Servicos.css'
 
 function Servicos() {
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const carouselRef = useRef(null)
+
   const servicos = [
     {
       image: '/images/servicos/terapia1.png',
@@ -34,6 +37,70 @@ function Servicos() {
       description: 'Acompanhamento terapêutico para tratamento da depressão e melhoria da qualidade de vida.'
     }
   ]
+
+  // Função para atualizar o índice baseado no scroll
+  useEffect(() => {
+    const carousel = carouselRef.current
+    if (!carousel) return
+
+    const handleScroll = () => {
+      const scrollLeft = carousel.scrollLeft
+      const containerWidth = carousel.offsetWidth
+      const cardWidth = containerWidth * 0.85
+      const gap = 20 // 1.25rem ≈ 20px
+      const totalCardWidth = cardWidth + gap
+      
+      // Calcula o índice baseado na posição do scroll
+      let newIndex = Math.round(scrollLeft / totalCardWidth)
+      
+      // Ajusta considerando o padding inicial
+      const paddingLeft = (containerWidth - cardWidth) / 2
+      if (scrollLeft < paddingLeft) {
+        newIndex = 0
+      } else {
+        newIndex = Math.round((scrollLeft - paddingLeft) / totalCardWidth)
+      }
+      
+      const clampedIndex = Math.max(0, Math.min(newIndex, servicos.length - 1))
+      setCurrentIndex(clampedIndex)
+    }
+
+    // Usa requestAnimationFrame para melhor performance
+    let ticking = false
+    const onScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          handleScroll()
+          ticking = false
+        })
+        ticking = true
+      }
+    }
+
+    carousel.addEventListener('scroll', onScroll, { passive: true })
+    handleScroll() // Inicial
+
+    return () => {
+      carousel.removeEventListener('scroll', onScroll)
+    }
+  }, [servicos.length])
+
+  // Função para scroll suave para um índice específico
+  const scrollToIndex = (index) => {
+    const carousel = carouselRef.current
+    if (!carousel) return
+    
+    const containerWidth = carousel.offsetWidth
+    const cardWidth = containerWidth * 0.85
+    const gap = 20
+    const totalCardWidth = cardWidth + gap
+    const paddingLeft = (containerWidth - cardWidth) / 2
+    
+    carousel.scrollTo({
+      left: paddingLeft + (index * totalCardWidth),
+      behavior: 'smooth'
+    })
+  }
 
   return (
     <section id="servicos" className="servicos">
@@ -72,11 +139,14 @@ function Servicos() {
             </div>
           ))}
         </div>
-        {/* Grid com scroll horizontal para mobile */}
+        {/* Carrossel premium para mobile */}
         <div className="servicos-wrapper-mobile">
-          <div className="servicos-grid-mobile">
+          <div className="servicos-carousel" ref={carouselRef}>
             {servicos.map((servico, index) => (
-              <div key={index} className="servico-card">
+              <div 
+                key={index} 
+                className={`servico-card-carousel ${index === currentIndex ? 'active' : ''}`}
+              >
                 <div className="servico-image-wrapper">
                   <img 
                     src={servico.image} 
@@ -94,6 +164,17 @@ function Servicos() {
                 <h3 className="servico-title">{servico.title}</h3>
                 <p className="servico-description">{servico.description}</p>
               </div>
+            ))}
+          </div>
+          {/* Indicadores de posição */}
+          <div className="carousel-indicators">
+            {servicos.map((_, index) => (
+              <button
+                key={index}
+                className={`carousel-dot ${index === currentIndex ? 'active' : ''}`}
+                onClick={() => scrollToIndex(index)}
+                aria-label={`Ir para serviço ${index + 1}`}
+              />
             ))}
           </div>
         </div>

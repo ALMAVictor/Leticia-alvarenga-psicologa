@@ -191,67 +191,132 @@
     display: none;
   }
 
-  /* Mostra o wrapper mobile */
+  /* Wrapper do carrossel mobile */
   .servicos-wrapper-mobile {
     display: block !important;
-    margin-top: 1.5rem;
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-    padding-bottom: 0.5rem;
+    margin-top: 2rem;
     position: relative;
     z-index: 2;
+  }
+
+  /* Carrossel premium */
+  .servicos-carousel {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    gap: 1.25rem;
+    padding: 1rem 0 2rem;
     /* Esconde a scrollbar mas mantém funcionalidade */
     scrollbar-width: none;
     -ms-overflow-style: none;
+    padding-left: calc((100vw - 85vw) / 2);
+    padding-right: calc((100vw - 85vw) / 2);
   }
 
-  .servicos-wrapper-mobile::-webkit-scrollbar {
+  .servicos-carousel::-webkit-scrollbar {
     display: none;
   }
 
-  .servicos-grid-mobile {
-    display: grid;
-    grid-template-columns: repeat(3, calc((100vw - 2rem) / 3 - 0.5rem));
-    grid-template-rows: repeat(2, auto);
-    grid-auto-flow: column;
-    gap: 0.75rem;
-    width: max-content;
-    padding-right: 1rem;
+  /* Cards do carrossel */
+  .servico-card-carousel {
+    flex: 0 0 85%;
+    scroll-snap-align: center;
+    background: var(--white);
+    padding: 2.5rem 2rem;
+    border-radius: 24px;
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 8px 24px rgba(107, 78, 113, 0.15);
+    transform: scale(0.92);
+    opacity: 0.7;
+    position: relative;
   }
 
-  .servicos-wrapper-mobile .servico-card {
-    padding: 1rem 0.75rem;
-    min-width: calc((100vw - 2rem) / 3 - 0.5rem);
-    border-radius: 15px;
+  .servico-card-carousel.active {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 20px 48px rgba(107, 78, 113, 0.25);
+    z-index: 1;
   }
 
-  .servicos-wrapper-mobile .servico-image-wrapper {
-    height: 120px;
-    margin-bottom: 0.75rem;
-    border-radius: 12px;
+  .servico-card-carousel:not(.active) {
+    filter: blur(2px);
   }
 
-  .servicos-wrapper-mobile .servico-icon-placeholder {
-    font-size: 2.5rem;
+  .servico-card-carousel .servico-image-wrapper {
+    height: 240px;
+    margin-bottom: 1.5rem;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(107, 78, 113, 0.1);
   }
 
-  .servicos-wrapper-mobile .servico-title {
-    font-size: 0.95rem;
-    margin-bottom: 0.5rem;
+  .servico-card-carousel .servico-image {
+    transition: transform 0.4s ease;
+  }
+
+  .servico-card-carousel.active .servico-image {
+    transform: scale(1.02);
+  }
+
+  .servico-card-carousel .servico-icon-placeholder {
+    font-size: 4rem;
+  }
+
+  .servico-card-carousel .servico-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
     line-height: 1.3;
+    font-weight: 600;
   }
 
-  .servicos-wrapper-mobile .servico-description {
-    font-size: 0.8rem;
-    line-height: 1.4;
+  .servico-card-carousel .servico-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-light);
+  }
+
+  /* Indicadores de posição */
+  .carousel-indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(107, 78, 113, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+    flex-shrink: 0;
+  }
+
+  .carousel-dot.active {
+    width: 32px;
+    height: 10px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(107, 78, 113, 0.3);
+  }
+
+  .carousel-dot:active {
+    transform: scale(0.9);
   }
 }
 
 @media (max-width: 480px) {
   .servicos {
-    padding: 2.5rem 0.75rem;
+    padding: 2.5rem 1rem;
   }
 
   .servicos-subtitle {
@@ -259,31 +324,47 @@
     margin-bottom: 1.5rem;
   }
 
-  .servicos-grid-mobile {
-    grid-template-columns: repeat(3, calc((100vw - 1.5rem) / 3 - 0.5rem));
+  .servicos-carousel {
+    padding-left: calc((100vw - 90vw) / 2);
+    padding-right: calc((100vw - 90vw) / 2);
+    gap: 1rem;
+  }
+
+  .servico-card-carousel {
+    flex: 0 0 90%;
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+  }
+
+  .servico-card-carousel .servico-image-wrapper {
+    height: 200px;
+    margin-bottom: 1.25rem;
+    border-radius: 16px;
+  }
+
+  .servico-card-carousel .servico-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.875rem;
+  }
+
+  .servico-card-carousel .servico-description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .carousel-indicators {
+    margin-top: 1.25rem;
     gap: 0.5rem;
   }
 
-  .servicos-wrapper-mobile .servico-card {
-    padding: 0.875rem 0.5rem;
-    min-width: calc((100vw - 1.5rem) / 3 - 0.5rem);
-    border-radius: 12px;
+  .carousel-dot {
+    width: 8px;
+    height: 8px;
   }
 
-  .servicos-wrapper-mobile .servico-image-wrapper {
-    height: 100px;
-    margin-bottom: 0.5rem;
-    border-radius: 10px;
-  }
-
-  .servicos-wrapper-mobile .servico-title {
-    font-size: 0.85rem;
-    margin-bottom: 0.4rem;
-  }
-
-  .servicos-wrapper-mobile .servico-description {
-    font-size: 0.75rem;
-    line-height: 1.3;
+  .carousel-dot.active {
+    width: 28px;
+    height: 8px;
   }
 }
 
