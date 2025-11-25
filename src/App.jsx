@@ -6,7 +6,7 @@ import Servicos from './components/Servicos'
 import ComoFunciona from './components/ComoFunciona'
 import Depoimentos from './components/Depoimentos'
 import FAQ from './components/FAQ'
-import Localizacao from './components/Localizacao'
+import AtendimentoOnline from './components/AtendimentoOnline'
 import Contato from './components/Contato'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
@@ -22,7 +22,7 @@ function App() {
       <ComoFunciona />
       <Depoimentos />
       <FAQ />
-      <Localizacao />
+      <AtendimentoOnline />
       <Contato />
       <Footer />
       <WhatsAppButton />

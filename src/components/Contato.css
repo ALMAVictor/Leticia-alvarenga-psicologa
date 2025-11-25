@@ -32,6 +32,10 @@
 .contato-icon {
   font-size: 2rem;
   flex-shrink: 0;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contato-item h3 {

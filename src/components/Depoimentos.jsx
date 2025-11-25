@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaStar } from 'react-icons/fa'
 import './Depoimentos.css'
 
 function Depoimentos() {
@@ -32,7 +33,7 @@ function Depoimentos() {
             <div key={index} className="depoimento-card">
               <div className="depoimento-stars">
                 {[...Array(depoimento.rating)].map((_, i) => (
-                  <span key={i}>⭐</span>
+                  <FaStar key={i} className="star-icon" />
                 ))}
               </div>
               <p className="depoimento-texto">"{depoimento.texto}"</p>

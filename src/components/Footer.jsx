@@ -1,4 +1,5 @@
 import React from 'react'
+import { HiEnvelope, HiDevicePhoneMobile } from 'react-icons/hi2'
 import './Footer.css'
 
 function Footer() {
@@ -22,8 +23,14 @@ function Footer() {
           <div className="footer-section">
             <h4>Contato</h4>
             <ul>
-              <li>📧 contato@leticiapsicologa.com.br</li>
-              <li>📱 (17) 98209-1946</li>
+              <li>
+                <HiEnvelope className="footer-icon" />
+                contato@leticiapsicologa.com.br
+              </li>
+              <li>
+                <HiDevicePhoneMobile className="footer-icon" />
+                (17) 98209-1946
+              </li>
             </ul>
           </div>
         </div>

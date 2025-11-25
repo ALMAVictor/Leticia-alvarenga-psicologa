@@ -42,6 +42,11 @@
   font-size: 1.2rem;
 }
 
+.star-icon {
+  color: #FFD700;
+  font-size: 1.2rem;
+}
+
 .depoimento-texto {
   font-size: 1.1rem;
   color: var(--text-dark);

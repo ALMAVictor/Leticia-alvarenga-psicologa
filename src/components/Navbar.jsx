@@ -38,7 +38,7 @@ function Navbar() {
           <a href="#servicos" onClick={() => scrollToSection('servicos')}>Serviços</a>
           <a href="#depoimentos" onClick={() => scrollToSection('depoimentos')}>Depoimentos</a>
           <a href="#faq" onClick={() => scrollToSection('faq')}>FAQ</a>
-          <a href="#localizacao" onClick={() => scrollToSection('localizacao')}>Localização</a>
+          <a href="#atendimento-online" onClick={() => scrollToSection('atendimento-online')}>Atendimento Online</a>
           <a href="#contato" onClick={() => scrollToSection('contato')}>Contato</a>
           <button className="navbar-cta" onClick={handleWhatsApp}>
             Agendar

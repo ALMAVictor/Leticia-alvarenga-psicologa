@@ -14,8 +14,8 @@ function FAQ() {
       resposta: 'Cada sessão tem duração de aproximadamente 50 minutos. A frequência das sessões é definida em conjunto, geralmente semanal ou quinzenal, dependendo das suas necessidades.'
     },
     {
-      pergunta: 'O atendimento é presencial ou online?',
-      resposta: 'Ofereço ambas as modalidades! Você pode escolher entre atendimento presencial ou online, conforme sua preferência e disponibilidade. O atendimento online é realizado através de plataforma segura e confidencial.'
+      pergunta: 'Como funciona o atendimento online?',
+      resposta: 'O atendimento é realizado 100% online, através de plataforma de videoconferência. A plataforma será definida no momento do agendamento, conforme sua preferência. Garantimos total privacidade, segurança e a mesma qualidade do atendimento presencial.'
     },
     {
       pergunta: 'Como sei se preciso de terapia?',

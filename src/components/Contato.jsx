@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { HiEnvelope, HiDevicePhoneMobile, HiComputerDesktop } from 'react-icons/hi2'
 import './Contato.css'
 
 function Contato() {
@@ -60,24 +61,30 @@ ${formData.mensagem}`
             </p>
             <div className="contato-details">
               <div className="contato-item">
-                <div className="contato-icon">📧</div>
+                <div className="contato-icon">
+                  <HiEnvelope />
+                </div>
                 <div>
                   <h3>Email</h3>
                   <p>contato@leticiapsicologa.com.br</p>
                 </div>
               </div>
               <div className="contato-item">
-                <div className="contato-icon">📱</div>
+                <div className="contato-icon">
+                  <HiDevicePhoneMobile />
+                </div>
                 <div>
                   <h3>WhatsApp</h3>
                   <p>(17) 98209-1946</p>
                 </div>
               </div>
               <div className="contato-item">
-                <div className="contato-icon">📍</div>
+                <div className="contato-icon">
+                  <HiComputerDesktop />
+                </div>
                 <div>
-                  <h3>Localização</h3>
-                  <p>Atendimento presencial e online</p>
+                  <h3>Modalidade</h3>
+                  <p>Atendimento 100% Online</p>
                 </div>
               </div>
             </div>

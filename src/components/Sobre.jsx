@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaGraduationCap, FaBook, FaClock } from 'react-icons/fa'
 import './Sobre.css'
 
 function Sobre() {
@@ -25,21 +26,27 @@ function Sobre() {
             </p>
             <div className="sobre-features">
               <div className="feature-item">
-                <div className="feature-icon">🎓</div>
+                <div className="feature-icon">
+                  <FaGraduationCap />
+                </div>
                 <div className="feature-text">
                   <h3>Formação</h3>
                   <p>Graduação em Psicologia (2023)</p>
                 </div>
               </div>
               <div className="feature-item">
-                <div className="feature-icon">📚</div>
+                <div className="feature-icon">
+                  <FaBook />
+                </div>
                 <div className="feature-text">
                   <h3>Pós-Graduações</h3>
                   <p>Teoria Cognitiva Comportamental<br />Neuropsicologia</p>
                 </div>
               </div>
               <div className="feature-item">
-                <div className="feature-icon">⏱️</div>
+                <div className="feature-icon">
+                  <FaClock />
+                </div>
                 <div className="feature-text">
                   <h3>Experiência</h3>
                   <p>Um ano e meio de atendimento clínico</p>

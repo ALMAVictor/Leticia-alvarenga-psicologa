@@ -1,4 +1,5 @@
 import React from 'react'
+import { HiComputerDesktop } from 'react-icons/hi2'
 import './Hero.css'
 
 function Hero() {
@@ -28,6 +29,10 @@ function Hero() {
             Atendimento psicológico especializado para ajudar você 
             a encontrar equilíbrio e bem-estar emocional.
           </p>
+          <div className="hero-badge">
+            <HiComputerDesktop className="badge-icon" />
+            <span className="badge-text">Atendimento 100% Online</span>
+          </div>
           <div className="hero-buttons">
             <button className="btn btn-primary" onClick={handleAgendarClick}>
               Agendar Consulta
