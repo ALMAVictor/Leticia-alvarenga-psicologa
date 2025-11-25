@@ -275,6 +275,7 @@
 
   .hero-image {
     order: -1;
+    margin-top: 2.5rem;
   }
 
   .hero-content {
@@ -340,6 +341,7 @@
 
   .hero-image {
     padding: 0;
+    margin-top: 2rem;
   }
 
   .hero-photo-wrapper {
